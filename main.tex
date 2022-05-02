@@ -1,0 +1,42 @@
+\input{book preambles}
+
+\setcounter{section}{-1}
+
+\input{commands}
+
+\begin{document}
+
+	\title{\texorpdfstring{$p$}{}-adic Hodge theory}
+	
+	\author{Dat Minh Ha}
+	\maketitle
+	
+	{
+      \hypersetup{} 
+      %\dominitoc
+      \tableofcontents %sort sections alphabetically
+    }
+    
+    \input{Chapters/introduction}
+	
+	\chapter{Abelian \texorpdfstring{$p$}{}-adic Hodge theory and cohomology of \texorpdfstring{$p$}{}-adic varieties}
+	    \input{Chapters/Abelian p-adic Hodge theory/(phi, Gamma)-modules}
+	    
+	    \input{Chapters/Abelian p-adic Hodge theory/period rings}
+	
+	\chapter{Non-abelian \texorpdfstring{$p$}{}-adic Hodge theory and the \texorpdfstring{$p$}{}-adic Simpson Correspondence}
+	    \input{Chapters/Non-abelian p-adic Hodge theory/monodromy representations}
+	    
+	    \input{Chapters/Non-abelian p-adic Hodge theory/higgs isocrystals}
+	    
+	    \input{Chapters/Non-abelian p-adic Hodge theory/covanishing topoi}
+	    
+    \begin{appendices}
+        \chapter{Almost ring theory}
+            
+    \end{appendices}
+	
+	%\addcontentsline{toc}{section}{References}
+	\printbibliography
+
+\end{document}
